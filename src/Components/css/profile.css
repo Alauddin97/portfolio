@@ -1,0 +1,32 @@
+.profile{
+    color: aliceblue;
+    padding: 05px;
+    padding-left: 20px;
+}
+
+.person{
+    
+    border-collapse: collapse;
+    width: 800px;
+    font-family:cursive;
+    font-size:30px;
+    color:black;
+    
+}
+
+.td{
+    padding: 10px;
+}
+@media screen and (max-width:600px){
+    .person{
+        max-width: 600px;
+        padding: 0px;
+        display:grid;
+        font-size: 12px;
+        
+    }
+    .profile{
+        padding: 02%;
+    }
+}
+
