@@ -7,6 +7,7 @@ import Profile from "./Components/Profile"
 import Education from "./Components/Education";
 import Skill from './Components/Skill'
 import Hobby from './Components/Hobby';
+import Work from './Components/Work'
 
 function App() {
   return (
@@ -20,7 +21,8 @@ function App() {
           <Route path="/" exact component={Profile}/>
           <Route path="/edu" component={Education} />
           <Route path="/skill" component={Skill} />
-          <Route path="/hobby" component={Hobby} />
+          <Route path="/work" component={Work} />
+          {/* <Route path="/hobby" component={Hobby} /> */}
         </BrowserRouter>
       </div>
       <div>

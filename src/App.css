@@ -1,27 +1,25 @@
-.app{
- width: 80%;
- margin: 0 auto;
-}
+
 .flex{
     display: flex;
     background: whitesmoke;
     background-repeat: no-repeat;
     background-size: 100%;
 }
-
-@media screen and (max-width:600px){
-    .flex{
-        display: grid;
-    }
-}
-
 .footer{
-    background:grey;
+    background: rgba(0,0,0,0.8);
+    color: skyblue;
     text-align: center;
-    padding: 02px;
+    padding: 0.2px;
+    font-family: cursive;
 }
 
 a{
     text-decoration: none;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: lightgreen;
+}
+
+@media screen and (max-width:600px){
+    .footer{
+        font-size: 10px;
+    }
 }

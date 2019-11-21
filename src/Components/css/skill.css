@@ -1,49 +1,19 @@
-.top{
+.head{
     font-family:cursive;
-    padding: 20px;
-}
-
-.edu{
-    color: aliceblue;
-    padding: 05px;
+    font-size:20px;
     padding-left: 20px;
 }
 
 .skill{
-    border:3px solid gray;
-    border-collapse: collapse;
-    width: 600px;
-    font-family:cursive;
-    font-size:20px;
-    color:black;
-    text-align: center;
-    margin-left: 50px;
-    
-}
-
-.td{
-    padding: 10px;
+    width: auto;
+    padding-left: 10%;
 }
 @media screen and (max-width:600px){
     .skill{
-        border: 0px;
-        max-width:400px;
-        display:grid;
-        padding: 20px;
-        font-size: 12px;
-        margin-left: 0px;
-        
-    }
-    .profile{
-        padding: 02%;
-    }
-
-    .edu{
-        max-width: 600px;
-        padding: 0px;
-    }
-    .top{
-        font-size: 12px;
+        transform: rotate(90deg);
+        padding-left: 20px;
+        padding-top: 10px;
+        height: 190px;
+        width: 220px;
     }
 }
-

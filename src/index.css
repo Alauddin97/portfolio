@@ -5,10 +5,18 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: url("./universe.jpeg")
+  background-image: url("./universe.jpeg");
+  width: 80%;
+ margin:auto;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+@media screen and (max-width:600px){
+  body{
+    width: 100%;
+  }
 }

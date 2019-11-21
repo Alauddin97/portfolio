@@ -6,7 +6,7 @@ function Profile() {
         <div>
             <div className="profile">
             <table className="person">
-                <tr><td colSpan="5px"><h1>Personal Details</h1></td></tr>
+                <tr><td colSpan="2px"><h1>Personal Details</h1></td></tr>
                 <tr>
                     <td className="td"><label>Name:</label></td>
                     <td>Alauddin Ahmed</td>
@@ -16,16 +16,16 @@ function Profile() {
                     <td>Male</td>
                 </tr>
                 <tr>
-                    <td className="td"><label>Phone_Number:</label></td>
+                    <td className="td"><label>Phone Number:</label></td>
                     <td>9611270985</td>
                 </tr>
                 <tr>
-                    <td className="td"><label>Alternative_Phone_Number:</label></td>
+                    <td className="td"><label>Alternative Phone Number:</label></td>
                     <td>8660928768</td>
                 </tr>
                 <tr>
                     <td className="td"><label>Email:</label></td>
-                    <td>alen.maxx17@gmail.com</td>
+                    <td className="email">alen.maxx17@gmail.com</td>
                 </tr>
             </table>
 

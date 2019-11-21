@@ -25,10 +25,19 @@
     color: brown;
 }
 
+Link:active{
+    color: lightgreenS;
+}
+
 @media screen and (max-width: 600px)
 {
     .topic{
-        max-width:600px;
-        max-height: 550px;
+        width: 100px;
+        height: 350px;
+        
+    }
+    #link{
+        padding: 05px 20px;
+        font-size: 10px;
     }
 }

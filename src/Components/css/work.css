@@ -1,0 +1,26 @@
+legend{
+    font-family: cursive;
+    color: black;
+    font-size: 30px;
+    padding:0px 20px;
+}
+
+fieldset{
+    text-align: justify;
+    color: darkolivegreen;
+    padding: 20px;
+}
+
+label{
+    font-weight: bolder;
+}
+
+@media screen and (max-width:600px){
+    legend{
+        font-size: 10px;
+    }   
+    fieldset{
+        text-align: justify;
+        font-size: 10px;
+    }
+}

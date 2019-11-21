@@ -1,6 +1,8 @@
 .header{
     display: flex;
     background-image: url("./css_img/black.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
     min-height: 140px;
 }
 
@@ -28,5 +30,17 @@
 @media screen and (max-width:600px){
     .header{
         display: grid;
+        text-align: center;
+    }
+    .img{
+        margin: auto;
+    }
+    #name{
+        padding: 0px 20px;
+        font-size: 15px;
+    }
+
+    .my{
+        font-size: 20px;
     }
 }
