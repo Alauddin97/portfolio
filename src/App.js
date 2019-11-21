@@ -27,8 +27,8 @@ function App() {
       </div>
       <div>
           <footer class="footer">
-              To send a Mail <a href="mailto:alen.maxx17@gmail.com">Click_Here</a> &nbsp;&nbsp;&nbsp;&nbsp;
-              &nbsp;&nbsp;&nbsp;&nbsp; To make a Call <a href="tel:+918660928768">Click_Here</a>
+              To_send_a_Mail:<a href="mailto:alen.maxx17@gmail.com">Click_Here</a> &nbsp;&nbsp;&nbsp;&nbsp;
+              &nbsp;&nbsp;&nbsp;&nbsp; To_make_a_Call:<a href="tel:+918660928768">Click_Here</a>
           </footer>
       </div>
      
